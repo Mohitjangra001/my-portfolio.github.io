@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    
+   
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    font-family: 'Uchen', serif;
+    
+
+}
+.logo{
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: rgb(46, 246, 179);
+}
+.menu a{
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+.menu a:last-child{
+    background: red;
+    color: white;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+.h-text{
+    max-width: 500px;
+    position:absolute;
+    top: 30%;
+    left: 10%;
+}
+.h-text h1{
+    color: cornflowerblue;
+    font-size: 5em;
+    font-family: 'Shadows Into Light', cursive;
+}
+.h-text p{
+    margin-bottom : 30px; ;
+    font-size: 20px;
+}
+.h-text a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Uchen', serif;
+    border-radius: 8px;
+}
+#more{
+    background-color: transparent;
+    color: cornflowerblue;
+}
+.Icon{
+    position:fixed;
+    top: 50%;
+    left: 1px;
+    display:flex;
+    flex-direction: column;
+    transform: translateY(-50%);
+    
+}
+.Icon i{
+    margin:5px 0px;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+.Icon i:hover{
+    background-color: transparent;
+    transition: 0.4s;
+    border: 1px  black;
+    color: black;
+}
+/*.box{
+    background: rgb(255, 230, 138);
+    width:800px ;
+    height: 500px;
+    position: absolute;
+     top: 0;
+    right: 0;
+    z-index: -2;} */
+  
+
+#mohit{
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    z-index: -1;
+}
+
+
+
+
+
+
+#about{
+    padding: 50px 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.image{
+    flex-basis: 40%;
+    text-align: center;
+    background: rgba(255,159,243,0.2);
+
+
+}
+.image img{
+
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+.right-about{
+     flex-basis:50% ;
+}
+.right-about h1{
+    font-size: 3em;
+    color: #222f3e;
+    line-height: 1.4em;
+    font-family: 'Uchen', serif;
+}
+.right-about p{
+    font-size: 20px;
+    color: gray;
+    margin: 30px 0px 40px 0px ;
+
+}
+.right-about a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    background: #01a3a4;
+}
+
+
+
+
+
+
+
+
+
+
+
+#work{
+    padding: 0px 100px;
+    width: 100%;
+}
+.work-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right-side{
+    flex-basis: 40%;
+    text-align: center;
+    background: rgba(255,159,243,0.2);
+
+
+}
+.right-side img{
+
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+.left-side{
+    flex-basis:50% ;
+}
+
+.left-side h1{
+    font-size: 3em;
+    color: #222f3e;
+    line-height: 1.4em;
+    font-family: 'Uchen', serif;
+}
+.left-side p{
+    font-size: 20px;
+    color: gray;
+    margin: 30px 0px 40px 0px ;
+
+}
+.left-side a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    background: #01a3a4;
+}
+.resource{
+    padding: 50px 100px;
+    width: 100%;
+
+}
+.r-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.r-col-left{
+    flex-basis:50% ;
+}
+
+.r-col-left >div{
+   border: 1px solid black;
+    padding: 30px;
+    margin: 20px 0px;
+    border-radius: 8;
+    cursor: pointer;
+}
+.r-left-col p{
+font-size :20px;
+color: gray;
+margin:25px 0px ;
+}
+.r-left-col i{
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 0px 3px;
+    background: #ff7979;;
+    padding: 5px;
+
+}
+.pic{
+    width: 600px;
+    height: 650px;
+
+
+}
+.r-right-col h{
+    font-size: 3em;
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 1.4em;
+    color: #535c68;
+}
+footer{
+    padding: 20px 100px;
+    background: cornflowerblue;
+    color: white;
+    font-size: 20px;
+    font-family:  'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
